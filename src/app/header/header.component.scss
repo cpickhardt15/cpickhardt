@@ -1,0 +1,31 @@
+nav {
+    background-color: white;
+    font-size: 24px;
+    font-family: 'Georgia', sans-serif;
+    height: 70px;
+    border-bottom: solid 1px #e9ecef;
+ 
+    .navbar-nav {
+        flex-direction: row; 
+
+        .dropdown-menu.show {
+            position: absolute;
+            margin-left: 28px;
+        }
+    }
+
+    .nav-item {
+        text-align: center;
+        
+        a {
+            color: #6c757d;
+
+            &:hover, &:active{
+                color: #93bfc1;
+			};
+     
+        }
+
+    }
+    
+}
