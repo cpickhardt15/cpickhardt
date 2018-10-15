@@ -1,0 +1,51 @@
+body {
+    color: transparent;
+}
+
+.fa {
+    color: #6c757d;
+    font-size: 26px;
+
+    &:hover,
+    &:focus {
+        color: #93bfc1;
+    }
+}
+
+.carousel {
+    min-height: 670px;
+
+    .carousel-indicators {
+       
+        li {
+            background-color:  #6c757d;
+        }
+
+        .active {
+            background-color: #93bfc1;
+        }
+    }
+}
+
+img {
+    position: absolute;
+    margin-top:25%;
+}
+
+p {
+    font-size:20px;
+    span {
+        font-size: 35px;
+    }
+}
+
+a {
+    opacity: 1.0;
+    color:  #6c757d;
+    
+    &:hover,
+    &:focus {
+        color: #93bfc1;
+    }
+
+}
