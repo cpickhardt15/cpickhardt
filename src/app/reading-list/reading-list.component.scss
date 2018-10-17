@@ -5,6 +5,7 @@ body {
 .fa {
     color: #6c757d;
     font-size: 26px;
+    margin-top: -50%;
 
     &:hover,
     &:focus {
@@ -13,7 +14,10 @@ body {
 }
 
 .carousel {
-    min-height: 670px;
+
+    .carousel-inner {
+        min-height: 670px;
+    }
 
     .carousel-indicators {
        
@@ -25,17 +29,24 @@ body {
             background-color: #93bfc1;
         }
     }
+
 }
 
 img {
     position: absolute;
-    margin-top:25%;
+    margin-top:6%;
 }
 
 p {
-    font-size:20px;
+    font-size:18px;
+
     span {
-        font-size: 35px;
+        font-size: 36px;
+        font-style: italic;
+    }
+
+    &.overflow{
+        font-size: 16px;
     }
 }
 
